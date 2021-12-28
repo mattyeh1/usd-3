@@ -1,0 +1,7 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:21:17	275/275	---M--	404	error ('Not%20Found')	text/html	date:Mon,%2026%20Jul%202021%2001:21:17%20GMT	http://tompro.com.ar/robots.txt		(from )
+22:21:17	532/532	---M-Z	200	added ('OK')	text/html	date:Mon,%2026%20Jul%202021%2001:21:17%20GMT	http://tompro.com.ar/	C:/My%20Web%20Sites/asd/tompro.com.ar/index.html	(from )
+22:21:18	570/570	---M-Z	200	added ('OK')	text/css	etag:%2223a-5c7ce559caca7-gzip%22	http://tompro.com.ar/css/custom.css	C:/My%20Web%20Sites/asd/tompro.com.ar/css/custom.css	(from http://tompro.com.ar/)
+22:21:18	22131/22131	---M--	200	added ('OK')	image/gif	etag:%225673-5c7ce559caca7%22	http://tompro.com.ar/images/cora.gif	C:/My%20Web%20Sites/asd/tompro.com.ar/images/cora.gif	(from http://tompro.com.ar/)
+22:21:20	3052/3052	---M-Z	200	added ('OK')	application/javascript	etag:%22bec-5c7ce559caca7-gzip%22	http://tompro.com.ar/js/java.js	C:/My%20Web%20Sites/asd/tompro.com.ar/js/java.js	(from http://tompro.com.ar/)
+22:21:20	84245/84245	---M-Z	200	added ('OK')	application/javascript	etag:W/%2254499a48-14915%22	https://code.jquery.com/jquery-2.1.1.min.js	C:/My%20Web%20Sites/asd/code.jquery.com/jquery-2.1.1.min.js	(from http://tompro.com.ar/)

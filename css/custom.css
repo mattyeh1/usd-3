@@ -1,0 +1,44 @@
+body {
+  background-color:#000;
+}
+
+.output {
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color:white;
+  font-sizse:60px;
+  
+}
+
+.cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:60px;
+  background-color:white;
+  animation-name:blink;
+  animation-duration:0.2s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:400px;
+  width:0px;
+}
+p.cursor::after {
+  height:0px;
+  width:0px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
